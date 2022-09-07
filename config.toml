@@ -150,7 +150,7 @@ link = "#"
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 home = "Home"
 # subscription
 subscription_title = "Join Newteller for the latest news"
@@ -159,13 +159,13 @@ subscription_content = "Subscribe now to get notified about exclusive News And V
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
 
 
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
+################################### Korean language #####################################
+[Languages.kr]
+languageName = "Kr"
+languageCode = "euc-kr"
+contentDir = "content/korean"
+weight = 0
+home = "홈"
 # subscription
 subscription_title = "Rejoignez Newteller pour les dernières nouvelles"
 subscription_content = "Subscribe now to get notified about exclusive News And Views Issues every week!"
