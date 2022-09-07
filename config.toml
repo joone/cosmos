@@ -10,6 +10,7 @@ summaryLength = "20"
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = [] # desable language from here
+defaultContentLanguage = 'kr'
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
