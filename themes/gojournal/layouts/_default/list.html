@@ -22,7 +22,7 @@
       <div
         class="{{if or (eq $sidebar `left`) (eq $sidebar `right`)}}col-lg-9{{ else }}col-12{{end}} {{if eq $sidebar `left`}}order-1 order-lg-2{{end}} mb-5 mb-lg-0">
         <div class="row">
-          {{ $paginator := .Paginate (where .Site.RegularPages "Section" "post") }}
+         {{ $paginator := .Paginate (where .RegularPages "Section" "post") }}
           {{ range $index,$elements:= $paginator.Pages }}
           {{ if eq $index 0}}
           <div class="col-12 mb-4">
